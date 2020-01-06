@@ -9,6 +9,7 @@ public class HomeCtroller {
     @RequestMapping("/")
     public String homePage(Model model){
         model.addAttribute("myvar", "Hello NewYear.");
+        model.addAttribute("myvar2", "happy");
         return "hometemplate";
     }
 
